@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="این سایت برای طراحی اجرای توابع در زبان جاوا اسکریپت طراحی شده است."
+    />
+    <meta name="keywords" content="java script, html, function, web page" />
+    <meta name="author" content="Reza Mohammadi" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="./images/java-script1.png" sizes="16x16" />
+    <link rel="icon" href="./images/java-script2.png" sizes="32x32" />
+    <link rel="icon" href="./images/java-script3.png" sizes="48x48" />
+    <link rel="icon" href="./images/java-script4.png" sizes="64x64" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Java Script</title>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="main-div__container">
+        <fieldset>
+          <legend>توابع محاسباتی</legend>
+          <div class="form-div">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="input1" class="label"
+                  >تابع: بررسی عدد زوج یا فرد</label
+                >
+                <input
+                  type="number"
+                  id="input1"
+                  name="input1"
+                  required
+                  autocomplete="off"
+                  placeholder="یک عدد به دلخواه وارد کنید"
+                  class="input"
+                />
+                <button type="button" class="button" onclick="evenOdd()">
+                  محاسبه
+                </button>
+              </div>
+              <div class="form-group">
+                <label for="input2" class="label"
+                  >تابع: جمع اعداد بین صفر تا خود عدد</label
+                >
+                <input
+                  type="number"
+                  id="input2"
+                  name="input2"
+                  required
+                  autocomplete="off"
+                  placeholder="یک عدد به دلخواه وارد کنید"
+                  class="input"
+                />
+                <button type="button" class="button" onclick="sum()">
+                  محاسبه
+                </button>
+              </div>
+              <div class="form-group">
+                <label for="input3" class="label"
+                  >تابع: رسم شکل مثلث قائم الزاویه</label
+                >
+                <input
+                  type="number"
+                  id="input3"
+                  name="input3"
+                  required
+                  autocomplete="off"
+                  placeholder="یک عدد به دلخواه وارد کنید"
+                  class="input"
+                />
+                <button type="button" class="button" onclick="drawTriangle()">
+                  رسم شکل
+                </button>
+              </div>
+              <div class="form-group">
+                <p>
+                  تابع: تعداد اعداد بین 0 تا 100 که بر 3 یا 7 بخش پذیر نیستند
+                </p>
+                <button
+                  type="button"
+                  class="button"
+                  onclick="countNonDivisibleBy3Or7()"
+                >
+                  محاسبه
+                </button>
+              </div>
+            </form>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

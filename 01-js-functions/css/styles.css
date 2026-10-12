@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: #eaf1f1;
+}
+
+.main-div {
+  width: 100%;
+}
+.main-div .main-div__container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+}
+.main-div .main-div__container legend {
+  font-size: 2.2rem;
+  color: #cb7878;
+}
+.main-div .main-div__container .form-div {
+  width: 60%;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid #2d302b;
+  border-radius: 10px;
+  background-color: rgb(132, 244, 169);
+}
+.main-div .main-div__container .form-div .form-group {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+}
+.main-div .main-div__container .form-div .form-group p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.main-div .main-div__container .form-div .form-group .label {
+  font-size: 1.5rem;
+}
+.main-div .main-div__container .form-div .form-group .label,
+.main-div .main-div__container .form-div .form-group .input {
+  margin: 5px;
+}
+.main-div .main-div__container .form-div .form-group .input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(86, 198, 232);
+}
+.main-div .main-div__container .form-div .form-group .button {
+  width: 30%;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 20px 130px 0 0;
+  font-size: 1rem;
+  background-color: #eec4c4;
+}/*# sourceMappingURL=styles.css.map */
